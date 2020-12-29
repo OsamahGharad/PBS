@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ReturnInvoiceRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee"
+    >
+    <TableLayout
+        android:id="@+id/invoice_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="0dp"
+        android:layout_marginHorizontal="0dp"
+        android:background="#BFBFC0"
+        >
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Return_invoice_category"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/S_category"
+                android:textColor="#4E4C4C"
+                android:fontFamily="@font/droid"
+                android:textSize="13sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#fff"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"/>
+
+            <TextView
+                android:id="@+id/Return_invoice_size"
+                android:textColor="#4E4C4C"
+                android:fontFamily="@font/droid"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/S_size"
+                android:textSize="13sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#fff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"/>
+
+            <TextView
+                android:id="@+id/Return_invoice_amount"
+                android:textColor="#4E4C4C"
+                android:fontFamily="@font/droid"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/S_amount"
+                android:textSize="13sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#fff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"/>
+
+
+            <TextView
+                android:id="@+id/Return_invoice_returnReason"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/returnReason"
+                android:textColor="#4E4C4C"
+                android:fontFamily="@font/droid"
+                android:textSize="13sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#fff"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+</RelativeLayout>
+

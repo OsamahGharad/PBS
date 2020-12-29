@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FCFAFA">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/whiteTextColor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:id="@+id/S_invoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/S_invoices"
+                    android:textSize="18sp"
+                    android:textColor="#504D4D"
+                    android:fontFamily="@font/droid"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:text="0000"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/droid"
+                    android:layout_alignBaseline="@+id/S_invoice"
+                    android:layout_toEndOf="@id/S_invoice"
+                    android:layout_marginStart="20dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/holo_red_dark"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:id="@+id/S_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/S_invoice"
+                    android:layout_alignStart="@+id/S_invoice"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/S_date"
+                    android:textSize="18sp"
+                    android:textColor="#504D4D"
+                    android:fontFamily="@font/droid"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yyyy/mm/dd"
+                    android:layout_marginTop="0dp"
+                    android:ellipsize="end"
+                    android:layout_alignBaseline="@+id/S_date"
+                    android:layout_toEndOf="@id/S_date"
+                    android:layout_marginStart="20dp"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/droid"
+                    android:textColor="#00bcd4"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:id="@+id/S_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/S_name"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_alignParentStart="true"
+                    android:textSize="18sp"
+                    android:textColor="#504D4D"
+                    android:fontFamily="@font/droid"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/S_name"
+                    android:ellipsize="end"
+                    android:layout_marginTop="0dp"
+                    android:layout_alignBaseline="@+id/S_name"
+                    android:layout_toEndOf="@id/S_name"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/droid"
+                    android:textColor="#00bcd4"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:id="@+id/S_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/S_name"
+                    android:textColor="#504D4D"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/S_address"
+                    android:fontFamily="@font/droid"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/S_address"
+                    android:ellipsize="end"
+                    android:layout_marginTop="0dp"
+                    android:layout_alignBaseline="@+id/S_address"
+                    android:layout_toEndOf="@id/S_address"
+                    android:layout_marginStart="20dp"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="0dp"
+                    android:fontFamily="@font/droid"
+                    android:textColor="#00bcd4"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

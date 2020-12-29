@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/edit">
+
+    <EditText
+        android:id="@+id/Dialog_PaidInvoiceNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/invoice"
+        android:backgroundTint="#03A9F4"/>
+
+    <EditText
+        android:id="@+id/Dialog_Paid_Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Dialog_PaidInvoiceNo"
+        android:layout_alignParentStart="true"
+        android:hint="@string/amount_paid"
+        android:inputType="number"
+        tools:ignore="RtlCompat"
+        android:backgroundTint="#03A9F4"/>
+
+    <EditText
+        android:id="@+id/Dialog_Remain_Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Dialog_Paid_Amount"
+        android:layout_alignParentStart="true"
+        android:hint="@string/remain_amount"
+        android:inputType="number"
+        tools:ignore="RtlCompat"
+        android:backgroundTint="#03A9F4"/>
+
+</RelativeLayout>

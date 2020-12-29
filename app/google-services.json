@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "617795616812",
+    "firebase_url": "https://performancebooster-91407.firebaseio.com",
+    "project_id": "performancebooster-91407",
+    "storage_bucket": "performancebooster-91407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617795616812:android:fb3d0fb6bb39b30fbf1189",
+        "android_client_info": {
+          "package_name": "com.example.pbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617795616812-36ij9roqt4uk2fs9ag07gvavvepkr5v8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtdgyH6dxDJGO0zzpP9mW_GWTlYscibIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617795616812-36ij9roqt4uk2fs9ag07gvavvepkr5v8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

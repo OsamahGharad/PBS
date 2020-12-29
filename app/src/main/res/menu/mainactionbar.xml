@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/actionbar_search"
+    android:icon="@drawable/search"
+    android:title="@string/actionbar_search"
+    app:showAsAction="always"
+    app:actionViewClass="android.widget.SearchView">
+</item>
+    <item
+    android:id="@+id/indebt_invoice"
+     android:icon="@drawable/invoice"
+     android:title="@string/menu_invoice"
+     app:showAsAction="ifRoom"
+        >
+    </item>
+    <item
+        android:id="@+id/generate_pdf"
+        android:icon="@drawable/pdf"
+        android:title="generate_pdf"
+        app:showAsAction="ifRoom"
+        ></item>
+
+
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cus_fullName">اسم العميل</string>
+    <string name="Maximum_credit">المديونية</string>
+    <string name="cus_type">نوع العميل</string>
+    <string name="email">الايميل</string>
+    <string name="cus_lname">الاسم الثاني</string>
+    <string name="cus_fname">الاسم الاول</string>
+    <string name="incom_report">تقرير عن الصندوق</string>
+    <string name="add">اضافة</string>
+    <string name="returnReason">سبب الارجاع</string>
+    <string name="ReturnNo">رقم فاتورة المرتجع</string>
+    <string name="delete">حذف</string>
+    <string name="edit_customer_data">تعديل بيانات العميل</string>
+    <string name="create_return_invoice">انشاء فاتورة مرتجع</string>
+    <string name="invoiceData">بيانات الفاتورة</string>
+    <string name="C_address">عنوان العميل</string>
+    <string name="create_invoice">انشاء فاتورة</string>
+    <string name="status">الحالة</string>
+    <string name="about">حول النطبيق</string>
+    <string name="and">و</string>
+    <string name="create_salesInvoice">انشاء فاتورة مبيعات</string>
+    <string name="paid_money">المبلغ المدفوع</string>
+    <string name="edit_sales_invoice">تعديل فاتورة</string>
+    <string name="BacktoHome">العودة الى الصفحة الرئيسية</string>
+    <string name="area">المنطقة</string>
+    <string name="from">من</string>
+    <string name="target_sale">هدف المبيعات</string>
+    <string name="to">الى</string>
+    <string name="Quantity">الكمية</string>
+    <string name="unitMeasure">العبوة</string>
+    <string name="nav_order">الطلبات</string>
+    <string name="add_order">اضافة طلب</string>
+    <string name="pls_wait">يرجى الانتظار</string>
+</resources>

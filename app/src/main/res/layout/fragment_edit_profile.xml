@@ -1,0 +1,167 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#FFF"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fitsSystemWindows="true"
+        android:background="@android:color/white"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapse_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:titleEnabled="false"
+            android:background="@drawable/edit"
+            >
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="185dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/profiles" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/profile_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:title="@string/profile"
+
+                android:fontFamily="@font/droid"
+                app:titleTextColor="@color/colorPrimary"
+                />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/SP_FirstName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="start|center"
+                android:layout_alignBaseline="@+id/cus_fname"
+                android:inputType="text"
+                android:ellipsize="end"
+                android:textSize="15dp"
+                android:fontFamily="@font/droid"
+                android:drawableStart="@drawable/person"
+                android:layout_toEndOf="@+id/cus_fname"
+                android:background="@drawable/edit"
+                android:hint="@string/cus_fname"
+                tools:ignore="RtlCompat"
+                android:layout_marginBottom="15dp"/>
+
+            <EditText
+                android:id="@+id/SP_LastName"
+                android:fontFamily="@font/droid"
+                android:textSize="15dp"
+                android:drawableStart="@drawable/person"
+                android:hint="@string/cus_lname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/cus_lname"
+                android:layout_toEndOf="@+id/cus_lname"
+                android:background="@drawable/edit"
+                android:ellipsize="end"
+                android:inputType="text"
+                tools:ignore="RtlCompat"
+                android:layout_marginBottom="15dp"/>
+
+            <EditText
+                android:id="@+id/PhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/droid"
+                android:textSize="15dp"
+                android:drawableStart="@drawable/ic_phone_black_24dp"
+                android:hint="@string/cus_phone_number"
+                android:layout_alignBaseline="@+id/Cus_phone"
+                android:layout_toEndOf="@+id/Cus_phone"
+                android:inputType="number"
+                android:ellipsize="end"
+                android:background="@drawable/edit"
+                tools:ignore="RtlCompat"
+                android:layout_marginBottom="15dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:fontFamily="@font/droid"
+                android:textSize="15dp"
+                android:drawableStart="@drawable/email"
+                android:hint="@string/email"
+                android:background="@drawable/edit"
+                android:layout_alignBaseline="@+id/Cus_email"
+                android:layout_toEndOf="@+id/Cus_email"
+                android:inputType="text"
+                tools:ignore="RtlCompat"
+                android:layout_marginBottom="15dp"/>
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/droid"
+                android:textSize="15dp"
+                android:drawableStart="@drawable/location"
+                android:hint="@string/S_address"
+                android:background="@drawable/edit"
+                android:layout_alignBaseline="@+id/Cus_email"
+                android:layout_toEndOf="@+id/Cus_email"
+                android:inputType="text"
+                tools:ignore="RtlCompat"
+                android:layout_marginBottom="15dp"/>
+            <Button
+                android:id="@+id/login"
+                style="@style/loginButton"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:text="@string/save"
+                android:fontFamily="@font/droid"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/edit_profile_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"
+        app:backgroundTint="#03A9F4"
+        android:tint="#FAFAFA"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

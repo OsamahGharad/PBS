@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:cardBackgroundColor="#00a5ff"
+            app:cardCornerRadius="16dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/card_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:maxWidth="70dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/invoice_white" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
+
+                <TextView
+                    android:id="@+id/card_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="30dp"
+                    android:text="@string/S_date"
+                    android:textColor="#00BCD4"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/droid"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/card_paid"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/card_paid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="30dp"
+                    android:text="@string/paid"
+                    android:textColor="#333131"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/droid"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/card_indebt"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/card_invoice_paid_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="0000"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/card_paid"
+                    app:layout_constraintTop_toBottomOf="@+id/card_paid" />
+
+                <TextView
+                    android:id="@+id/card_invoice_divider"
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity=""
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="1dp"
+                    android:background="@color/colorPrimary"
+                    app:layout_constraintEnd_toStartOf="@+id/card_indebt"
+                    app:layout_constraintHorizontal_bias="0.63"
+                    app:layout_constraintStart_toEndOf="@+id/card_paid"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+                <TextView
+                    android:id="@+id/card_indebt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="@string/indebted"
+                    android:fontFamily="@font/droid"
+                    android:textColor="#333131"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/card_invoice_indebt_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="0000"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="16sp"
+                    app:layout_constraintTop_toBottomOf="@+id/card_indebt"
+                    app:layout_constraintEnd_toEndOf="@+id/card_indebt"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D9D9DB"/>
+</RelativeLayout>
+

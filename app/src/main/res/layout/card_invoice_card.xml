@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/whiteTextColor"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/card_incoice_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/invoice_block"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.246"
+
+            />
+
+        <TextView
+            android:id="@+id/card_date"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:fontFamily="@font/droid"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:text="2020/3/12"
+            android:textColor="#25C0DE"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/card_incoice_image"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+        <TextView
+            android:id="@+id/card_paid"
+            android:fontFamily="@font/droid"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/paid"
+            android:textColor="#323643"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/card_indebt"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/card_paid_amount"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/droid"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="4345,45"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="@+id/card_paid"
+            app:layout_constraintTop_toBottomOf="@+id/card_paid"
+            />
+
+        <TextView
+            android:id="@+id/card_invoice_divider"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_gravity=""
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="2dp"
+            android:background="#C3C3C5"
+            android:fontFamily="@font/droid"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/card_indebt"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toEndOf="@+id/card_paid"
+            app:layout_constraintTop_toTopOf="parent" />
+        " />
+
+
+        <TextView
+            android:id="@+id/card_indebt"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/droid"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/indebted"
+            android:textColor="#323643"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/card_indebt_amount"
+            android:fontFamily="@font/droid"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:text="4345,45"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_indebt"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

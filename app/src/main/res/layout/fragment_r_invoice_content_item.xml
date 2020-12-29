@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCFAFA">
+    <TableLayout
+        android:id="@+id/invoice_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="0dp"
+        android:layout_marginHorizontal="0dp"
+        android:background="#f1f1f1"
+        >
+        <TableRow
+            android:background="#FF9800">
+
+            <TextView
+                android:id="@+id/card_R_category"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/S_category"
+                android:textColor="#fff"
+                android:fontFamily="@font/droid"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/card_R_size"
+                android:textColor="#fff"
+                android:fontFamily="@font/droid"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/S_size"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/card_R_amount"
+                android:textColor="#fff"
+                android:fontFamily="@font/droid"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/S_amount"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/card_R_returnReason"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/returnReason"
+                android:textColor="#fff"
+                android:fontFamily="@font/droid"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
+

@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">PB</string>
+    <string name="channel_name" translatable="false">foreground_service</string>
+    <string name="channel_description" translatable="false">used to send location data even if the app is killed</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!-- pushNotification  -->
+    <string name="NEWS_CHANNEL_ID" translatable="false">news</string>
+    <string name="CHANNEL_NEWS" translatable="false">News</string>
+    <string name="CHANNEL_DESCRIPTION" translatable="false">Get informed with new updates</string>
+    <string name="DEBUG_TAG" translatable="false">LearningPushNotification</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_tasks">Tasks</string>
+    <string name="menu_goods">Goods</string>
+    <string name="menu_income">Income</string>
+    <string name="menu_customer">Customer</string>
+    <string name="menu_product">Product</string>
+    <string name="menu_sales">Sales</string>
+    <string name="menu_invoice">Invoices</string>
+    <string name="menu_report">Reports</string>
+    <string name="menu_setting">Setting</string>
+
+    <!--testing array -->
+    <string-array name="category">
+        <item>category 1</item>
+        <item>category 2</item>
+        <item>category 3</item>
+    </string-array>
+    <string-array name="product">
+        <item>product 1</item>
+        <item>product 2</item>
+        <item>product 3</item>
+    </string-array>
+
+    <string-array name="unit_of_measures">
+        <item>packet</item>
+        <item>cartoon</item>
+        <item>unit</item>
+    </string-array>
+
+
+    <!-- actionbar -->
+    <string name="actionbar_search">Search</string>
+
+    <!-- Task Activity-->
+    <string name="task_name">Task</string>
+    <string name="task_Details">TaskDetails</string>
+    <string name="movement_planing">Movement_Planing</string>
+
+    <!-- goods Activity-->
+    <string name="good">Good</string>
+    <string name="product">Product</string>
+    <string name="category">Category</string>
+    <string name="current_quantity">Current Quantity</string>
+    <string name="remain_quantity">Remain Quantity</string>
+    <!-- fragment_income-->
+    <string name="income">Incom</string>
+    <string name="total_amount">Total_Amount</string>
+    <string name="collect_amount">Collect_Amount</string>
+    <string name="remain_amount">Remain Amount</string>
+    <!-- customer-->
+    <string name="Customer">Customer</string>
+    <string name="customer_data">Customer Data</string>
+    <string name="add_customer">Add Customer</string>
+    <!-- Customer data-->
+    <string name="m">M</string>
+    <string name="cus_name">Name</string>
+    <string name="cus_Adress">Address</string>
+    <string name="cus_phone_number">Phone Number</string>
+    <!-- Add customer-->
+
+    <string name="note">Note</string>
+    <string name="add_addresses">Add address to Map</string>
+    <string name="save_send">Save and Send</string>
+    <string name="edit">Edit</string>
+    <!--  Invoice-->
+    <string name="sales_invoice">Sales Invoice</string>
+    <string name="return_invoice">Return Invoice</string>
+    <string name="invoice">Invoice</string>
+    <!-- Report-->
+    <string name="report">Report</string>
+    <string name="goods_report">Good Report</string>
+    <string name="saless_report">Sales Report</string>
+    <string name="tasks_report">Task Report</string>
+    <!--  Setting-->
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="backup">BackUp</string>
+    <string name="help">Help</string>
+    <!-- ERP Invoice-->
+    <string name="ERP_invoices">ERP_Invoice</string>
+    <string name="company_logo">Company Logo</string>
+    <string name="other_datails">Other Detail</string>
+    <string name="city">City:Sanaa</string>
+    <string name="S_name">Salesperson Name</string>
+    <string name="S_invoices">InvoiceNo</string>
+    <string name="S_address">Address</string>
+
+    <string name="S_date">Date</string>
+    <string name="S_size">Measure</string>
+    <string name="S_category">Category</string>
+    <string name="S_amount">Amount</string>
+    <string name="S_unite_price">Unite Price</string>
+    <string name="S_tax">Taxes</string>
+    <string name="S_discount">Discount</string>
+    <string name="S_Total">Total</string>
+    <string name="S_amount_paid">PaidAmount</string>
+    <string name="S_desorve_amount">DesorveAmount</string>
+    <!--Sales tab-->
+    <string name="sales_for_cutomder">Sales For Customer</string>
+    <string name="direct_sales">Direct Sales</string>
+    <string name="amount_paid">Paid Amount</string>
+    <string name="amount_deserved">Deserved Amount</string>
+    <string name="save">Save</string>
+    <string name="print">Print</string>
+
+
+    <!--fragment_sales-->
+    <string name="Max_indebtedness">Max_indebtedness</string>
+    <string name="Current_indebtedness">Current_indebtedness</string>
+    <string name="paid">Paid</string>
+    <string name="indebted">Indebted</string>
+    <!-- popup_menu-->
+    <string name="popup_paid">Paid</string>
+    <string name="popup_invoice">invoice</string>
+    <!--force_invoice-->
+    <string name="force_invoice">Force Invoice</string>
+    taskdetails
+    <!-- activity_login -->
+    <string name="taskdetails" translatable="false">Taskdetails</string>
+    <string name="taskPlan" translatable="false">TaskPlan</string>
+    <!-- activity_login -->
+    <string name="user_name">Username</string>
+    <string name="password">password</string>
+    <string name="forget_pass">Forget Password ? </string>
+    <string name="log_in">Login</string>
+    <!--C_real_data -->
+    <string name="C_name">OasQ</string>
+    <string name="C_address">Customer Address</string>
+    <!--g_Good-->
+    <string name="g_product">Yane</string>
+    <string name="g_category">Doe</string>
+    <string name="cus_fullName">Customer Name</string>
+    <string name="Maximum_credit">Maximum Credit</string>
+    <string name="cus_type">Customer Type</string>
+    <string name="email">Email</string>
+    <string name="cus_lname">Last Name</string>
+    <string name="cus_fname">First Name</string>
+    <string name="incom_report">Incom Report</string>
+    <string name="add">Add</string>
+    <string name="returnReason">Return Reason</string>
+    <string name="ReturnNo">ReturnNo</string>
+    <string name="delete">Delete</string>
+    <string name="edit_customer_data">Edit Customer Data</string>
+    <string name="create_return_invoice">Create Return Invoice</string>
+    <string name="invoiceData">Invoice Data</string>
+    <string name="create_invoice">Create Invoice</string>
+    <string name="status">Status</string>
+    <string name="about">About</string>
+    <string name="and">And</string>
+    <string name="create_salesInvoice">Create Sales Invoice</string>
+    <string name="paid_money">Paid</string>
+    <string name="edit_sales_invoice">Edit Sales Invoice</string>
+    <string name="BacktoHome">Back To Home</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="target_sale">Target Sales</string>
+    <string name="area">Area</string>
+    <string name="Quantity">Quantity</string>
+    <string name="unitMeasure">Unit Measure</string>
+    <string name="nav_order">Orders</string>
+    <string name="add_order">add Order</string>
+    <string name="pls_wait">Please wait...</string>
+
+
+</resources>

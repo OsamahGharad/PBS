@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+    android:id="@+id/setting_profile"
+    android:title="profile"
+    android:icon="@drawable/profile"></item>
+    <item
+        android:id="@+id/setting_notification"
+        android:title="Notifications"
+        android:icon="@drawable/notification"></item>
+    <!--<item
+        android:id="@+id/setting_language"
+        android:title="language setting"
+        android:icon="@drawable/language"></item>-->
+    <item
+        android:id="@+id/setting_backup"
+        android:title="Backup"
+        android:icon="@drawable/backup"></item>
+    <item
+        android:id="@+id/setting_help"
+        android:title="Help"
+        android:icon="@drawable/updownrows"></item>
+</menu>

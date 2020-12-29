@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00a5ff</color>
+    <color name="colorPrimaryDark">#1D8EE7</color>
+    <color name="colorAccent">#B1ACAC</color>
+    <color name="colorToolbar">#03A9F4</color>
+    <color name="icon_color">#fb6006</color>
+    <color name="menu_item_text_color">#606468</color>
+    <color name="title_color">#00a5ff</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+</resources>

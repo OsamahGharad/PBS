@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:id="@+id/FragmentAddCustomer">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp">
+            <TextView
+                android:id="@+id/Add_R_Invoice_Category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/droid"
+                android:textSize="15dp"
+                android:textColor="#ff9800"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="0dp"
+                android:text="@string/category"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <Spinner
+                android:id="@+id/Add_R_category_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_below="@+id/Add_R_Invoice_Category"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_spinner"
+                android:fontFamily="@font/droid"
+                android:textSize="14dp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/Add_S_Invoice_Product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/droid"
+                android:textSize="15dp"
+                android:textColor="#ff9800"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="0dp"
+                android:text="@string/product"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <Spinner
+                android:id="@+id/Add_R_product_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/Add_S_Invoice_Product"
+                android:fontFamily="@font/droid"
+                android:textSize="14dp"
+                android:background="@drawable/custom_spinner"
+                android:layout_marginBottom="3dp"
+                />
+
+            <TextView
+                android:id="@+id/Add_R_Invoice_UnitOfMeasure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/droid"
+                android:textSize="15dp"
+                android:textColor="#ff9800"
+                android:layout_marginTop="180dp"
+                android:layout_marginStart="0dp"
+                android:text="@string/S_size"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <Spinner
+                android:id="@+id/Add_R_UnitOfMeasure_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/Add_R_Invoice_UnitOfMeasure"
+                android:fontFamily="@font/droid"
+                android:textSize="14dp"
+                android:background="@drawable/custom_spinner"
+                android:layout_marginBottom="3dp"
+                />
+
+            <TextView
+                android:id="@+id/Add_R_Quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:fontFamily="@font/droid"
+                android:textSize="15dp"
+                android:textColor="#ff9800"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/Add_R_UnitOfMeasure_spinner"
+                android:layout_marginStart="0dp"
+                android:text="@string/S_amount"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/Add_R_QuantityEditTxt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="7dp"
+                android:fontFamily="@font/droid"
+                android:textSize="14dp"
+                android:textColor="#f26722"
+                android:layout_below="@+id/Add_R_Quantity"
+                android:inputType="number"
+                android:hint="@string/S_amount"
+                android:textStyle="bold"
+                android:background="@drawable/edit"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/Add_R_unitPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:fontFamily="@font/droid"
+                android:textSize="15dp"
+                android:textColor="#ff9800"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/Add_R_QuantityEditTxt"
+                android:layout_marginStart="0dp"
+                android:text="@string/S_unite_price"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/Add_R_unitPriceNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:fontFamily="@font/droid"
+                android:textSize="13dp"
+                android:textColor="#ff9800"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/Add_R_unitPrice"
+                android:hint="@string/S_unite_price"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/CreateInvoice_ItemsBtn"
+                android:layout_width="150dp"
+                android:fontFamily="@font/droid"
+                android:textColor="#FCFDFD"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/save_send"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold"
+                android:background="@drawable/delete"
+                android:text="@string/add"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

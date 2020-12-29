@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/headerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="0dp">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cus_cardview"
+                    app:cardCornerRadius="16dp"
+                    app:cardBackgroundColor="@color/whiteTextColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="100dp"
+
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/droid"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:text="@string/S_date"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#00a5ff"
+                            />
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/droid"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:text="@string/cus_fullName"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#00a5ff"
+                            />
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cus_Adress"
+                            android:fontFamily="@font/droid"
+                            android:textSize="12sp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#00a5ff"
+                            />
+                        <TextView
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/droid"
+                            android:textSize="12sp"
+                            android:text="@string/product"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#00a5ff"
+                            />
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/droid"
+                            android:textSize="12sp"
+                            android:text="@string/Quantity"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#00a5ff"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/droid"
+                            android:textSize="12sp"
+                            android:text="@string/unitMeasure"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#00a5ff"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_below="@+id/headerLayout"
+                android:id="@+id/income_card_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/order_recycleView"
+                    style="@style/recycleview"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/droid"
+                    />
+                <!-- <TextView
+                     android:id="@+id/vresult"
+                     android:layout_width="match_parent"
+                     android:text="good"
+                     android:layout_height="match_parent" />-->
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PerformanceBooster</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">الصفحة الرئيسية</string>
+    <string name="menu_tasks">المهام</string>
+    <string name="menu_goods">البضاعة</string>
+    <string name="menu_income">الصندوق</string>
+    <string name="menu_customer">العملاء</string>
+    <string name="menu_product">المنتجات</string>
+    <string name="menu_sales">المبيعات</string>
+    <string name="menu_invoice">الفواتير</string>
+    <string name="menu_report">التقارير</string>
+    <string name="menu_setting">الاعدادات</string>
+    <!-- actionbar -->
+    <string name="actionbar_search"> بحث</string>
+    <!-- task Activity-->
+    <string name="task_name">مهمة</string>
+    <string name="task_Details">تفاصيل المهمة</string>
+    <string name="movement_planing">خطة السير</string>
+    <!-- goods Activity-->
+    <string name="good">البضاعة</string>
+    <string name="product">المنتج</string>
+    <string name="category">الصنف</string>
+    <string name="current_quantity">الكمية الحالية</string>
+    <string name="remain_quantity">الكمية المتبقية</string>
+    <!-- fragment_income-->
+    <string name="income">الصندوق</string>
+    <string name="total_amount">المبلغ الاجمالي</string>
+    <string name="collect_amount">المبلغ المتحصل</string>
+    <string name="remain_amount">المبلغ المتبقي</string>
+    <!-- Customer-->
+    <string name="Customer">عميل</string>
+    <string name="customer_data">بيانات العميل</string>
+    <string name="add_customer">اضافة عميل</string>
+    <!-- customer data-->
+    <string name="m">م</string>
+    <string name="cus_name">الاسم</string>
+    <string name="cus_Adress">العنوات</string>
+    <string name="cus_phone_number">رقم التلفون</string>
+    <!-- Add customer-->
+    <string name="note">ملاحظة</string>
+    <string name="add_addresses">اضافة عنوان الى الخريطة</string>
+    <string name="save_send">حفظ وارسال </string>
+    <string name="edit">تعديل</string>
+    <!--  Invoice-->
+    <string name="sales_invoice">فواتير المبيعات</string>
+    <string name="return_invoice">فواتير المرتجعات</string>
+    <string name="invoice">فاتورة</string>
+    <!-- Report-->
+    <string name="report">التقارير</string>
+    <string name="goods_report">تقرير عن البضاعة</string>
+    <string name="saless_report">تقرير عن البضاعة</string>
+    <string name="tasks_report">تقرير عن المهمة</string>
+    <!--  Setting-->
+    <string name="profile">الملف الشخصي</string>
+    <string name="notification">الاشعارات</string>
+    <string name="language_setting">اعداد اللغة</string>
+    <string name="backup">النسخ الاحتياطية</string>
+    <string name="help">مساعدة</string>
+    <!-- ERP Invoice-->
+    <string name="ERP_invoices">فاتورة النظام</string>
+    <string name="company_logo">شعار الشركة</string>
+    <string name="other_datails">تفاصيل اخرى</string>
+    <string name="city">المحافظة:صنعاء</string>
+    <string name="S_name">اسم المندوب</string>
+    <string name="S_invoices">رقم الفاتورة</string>
+    <string name="S_address">العنوان</string>
+    <string name="S_date">التاريخ</string>
+    <string name="S_category">الصنف</string>
+    <string name="S_size">العبوة</string>
+    <string name="S_amount">الكمية</string>
+    <string name="S_unite_price">سعر الوحدة </string>
+    <string name="S_tax"> الضريبة</string>
+    <string name="S_discount">الخصم</string>
+    <string name="S_Total">الاجمالي</string>
+    <string name="S_amount_paid">المبلغ المدفوع</string>
+    <string name="S_desorve_amount">المبلغ المستحق</string>
+    <!--Sales tab-->
+    <string name="sales_for_cutomder">بيع لعميل</string>
+    <string name="direct_sales">بيع مباشر</string>
+    <string name="amount_paid">المبلغ المدفوع</string>
+    <string name="amount_deserved">المبلغ المستحق</string>
+    <string name="save">حفظ</string>
+    <string name="print">طباغة</string>
+    <!--Login-->
+
+    <string name="forget_pass">نسيت كلمة المرور؟ </string>
+    <!--fragment_sales-->
+    <string name="Max_indebtedness">الحد الائتماني</string>
+    <string name="Current_indebtedness">الحد المستحق</string>
+    <string name="paid">المبلغ</string>
+    <string name="indebted">المتبقي</string>
+    <!-- popup_menu-->
+    <string name="popup_paid">دفع</string>
+    <string name="popup_invoice">فاتورة</string>
+
+    <!--force_invoice-->
+    <string name="force_invoice">فواتير متاخرة</string>
+    <!-- activity_login -->
+    <string name="user_name">اسم المستخدم</string>
+    <string name="password">كلمة السر</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <!--C_real_data -->
+    <string name="C_name">عمر القطوي</string>
+
+    <!--g_Good-->
+    <string name="g_product">Yane</string>
+    <string name="g_category">Doe</string>
+</resources>
